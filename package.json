@@ -1,0 +1,37 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpaceyRezum/graphql-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpaceyRezum/graphql-test/issues"
+  },
+  "homepage": "https://github.com/SpaceyRezum/graphql-test#readme",
+  "dependencies": {
+    "casual": "^1.5.19",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "graphql-tools": "^2.23.1",
+    "lodash": "^4.17.5",
+    "mongoose": "^5.0.11",
+    "nodemon": "^1.17.2",
+    "sequelize": "^4.37.3",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
